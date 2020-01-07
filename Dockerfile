@@ -1,4 +1,4 @@
-FROM node:10.18.0-alpine3.9
+FROM node:10-alpine
 
 RUN rm -rf /var/cache/apk/* && \
     rm -rf /tmp/*
