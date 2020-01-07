@@ -1,5 +1,10 @@
 FROM node:10.18.0-alpine3.9
 
+RUN rm -rf /var/cache/apk/* && \
+    rm -rf /tmp/*
+
+RUN apk update
+
 RUN apk add --no-cache git ruby python
 
 
