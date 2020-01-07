@@ -20,4 +20,3 @@ RUN apk add --no-cache git ruby python
 # RUN yarn global add node-sass
 RUN npm install node-sass
 
-CMD ["node"]
